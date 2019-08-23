@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#main-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, #0F3CD7, #2D5AF5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#main-container .explain-text-container {
+  width: 90vw;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#main-container .explain-text-container .title-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+#main-container .explain-text-container .subtitle-text {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 40px;
+  padding-bottom: 10px;
+}
+#main-container .explain-text-container .reason-text-container {
+  list-style: none;
+  max-width: 800px;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#main-container .explain-text-container .reason-text-container .reason-text {
+  padding: 2px 0px;
+}
+#main-container .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#main-container .logo-container img {
+  width: 250px;
+  margin: 30px 0 10px 0;
+  opacity: 0.4;
+}
+#main-container .social-media-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  opacity: 0.4;
+}
+#main-container .social-media-container .title-social-media {
+  padding: 5px;
+  font-family: "ubuntu";
+  font-size: 1em;
+  font-weight: 800;
+}
+#main-container .social-media-container .email-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-family: "ubuntu";
+  font-size: 0.9em;
+}
+#main-container .social-media-container .social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+}
+#main-container .social-media-container .social-media-icons .social-media-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  padding: 5px 10px;
+  margin: 2px;
+}
+#main-container .social-media-container .social-media-icons .social-media-content a {
+  padding: 2px;
+  text-decoration: none;
+}
+#main-container .social-media-container .social-media-icons .social-media-content .remixicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 1.8em;
+  color: #fff;
+  opacity: 0.5;
+}
+#main-container .social-media-container .social-media-icons .social-media-content a:hover > .remixicon {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
