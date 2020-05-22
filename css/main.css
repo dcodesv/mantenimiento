@@ -6,7 +6,7 @@
 #main-container {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(45deg, #0F3CD7, #2D5AF5);
+  background: #1010f8;
   color: #fff;
   display: flex;
   align-items: center;
@@ -58,11 +58,12 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  overflow: hidden;
 }
 #main-container .logo-container img {
-  width: 250px;
-  margin: 30px 0 10px 0;
-  opacity: 0.4;
+  width: 100%;
+  max-width:500px;
+  opacity: 1;
 }
 #main-container .social-media-container {
   display: flex;
